@@ -38,7 +38,7 @@ header{
 }
 @media (min-width: 1024px) {
 	header{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -48,7 +48,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.banner{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -125,7 +125,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.jsao{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 	
@@ -217,7 +217,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.suoming{
-		max-width: 1024px;
+		max-width: 640px;
 		
 		margin: auto;
 	}
@@ -276,7 +276,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.help{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -360,7 +360,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.zengjiu{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -465,7 +465,7 @@ header{
 }*/
 @media (min-width: 1024px) {
 	.xuanz{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -515,7 +515,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.xianc{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -637,7 +637,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.yyue{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
@@ -704,7 +704,7 @@ header{
 }
 @media (min-width: 1024px) {
 	.erwei{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 		padding: 1rem 0;
 		margin-bottom: 2.4rem;
@@ -775,7 +775,7 @@ footer ul li a{
 }
 @media (min-width: 1024px) {
 	footer{
-		max-width: 1024px;
+		max-width: 640px;
 		margin: auto;
 	}
 }
