@@ -90,7 +90,7 @@ header{
 	width: auto;
 	white-space: nowrap;
 	left: 50%;
-	transform: translateX(-53%);
+	transform: translateX(-51%);
 	z-index: 99999;
 	margin: auto;
 	top: -0.672rem;
@@ -317,22 +317,25 @@ header{
 }
 .zengjiu ul li{
 	padding: 0.2rem;
+	font-size: 0;
 }
 .zengjiu ul li div{
-	float: left;
+	/*float: left;*/
+	display: inline-block;
+	vertical-align: middle;
 }
 .zengjiu ul li:nth-child(odd){
 	background: #BD135B;
 }
 .zengjiu ul li .tu{
-	width: 35%;
+	width: 38%;
 	margin-right: 2%;
 }
 .zengjiu ul li .tu img{
 	display: block;
 }
 .zengjiu ul li .wz{
-	width: 63%;
+	width: 60%;
 }
 .zengjiu ul li .wz img{
 	display: inline-block;
@@ -669,6 +672,7 @@ header{
 .erwei{
 	background: #BD135B;
 	padding: 1rem;
+	margin-bottom: 2.4rem;
 }
 .erwei .ma{
 	float: left;
@@ -703,6 +707,7 @@ header{
 		max-width: 1024px;
 		margin: auto;
 		padding: 1rem 0;
+		margin-bottom: 2.4rem;
 	}
 }
 /*@media (min-width: 768px) {
@@ -726,6 +731,12 @@ header{
 /*<!--		底部-->*/
 footer{
 	background: #46021F;	
+}
+footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 footer ul{
 	padding: 0.5rem 0;
