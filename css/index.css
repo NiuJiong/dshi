@@ -28,36 +28,53 @@ img{
 
 
 
-
 /*<!--		顶部-->*/
 header{
 	background: #88043C;
 	color: white;
 	text-align: center;
 	font-size: 1.0124rem;
-	padding: 6px 0;
+	padding: 0.5rem 0;
+}
+@media (min-width: 1024px) {
+	header{
+		max-width: 1024px;
+		margin: auto;
+	}
 }
 /*<!--		banner-->*/
 .banner img{
 	display: block;
 }
+@media (min-width: 1024px) {
+	.banner{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	.banner{
+		width: 980px;
+		margin: auto;
+	}
+}*/
 /*<!--		介绍-->*/
 .jsao{
-	padding-bottom: 20px;
+	padding-bottom: 1rem;
 }
 .jsao .topj{
 	color: #a7114a;
 	font-size: 0.84374rem;
 	text-align: center;
-	padding: 8px 0;
+	padding: 0.45rem 0;
 }
 .jsao .img{
-	margin: 0 5px;
+	margin: 0 0.2rem;
 	border: 1px solid #A7114A;
 	border-radius:5px;
 	font-size: 0;
 	position: relative;
-		margin-top: 10px;
+		margin-top: 0.5rem;
 }
 .jsao .img img{
 	display: block;
@@ -71,9 +88,9 @@ header{
 	transform: translateX(-50%);
 	z-index: 99999;
 	margin: auto;
-	top: -14px;
+	top: -0.672rem;
 	background: #A7114A;
-	padding: 6px 10px;
+	padding: 0.35rem 0.5rem;
 	border-radius:20px;
 	font-size: 0.84374rem;
 	font-weight: bold;
@@ -81,12 +98,12 @@ header{
 }
 .jsao .txt{
 	text-indent: 2em;
-	margin:5px;
+	margin:0.25rem;
 	color: #666666;
 	font-size: 0.84374rem;
 }
 .jsao ul{
-	margin: 0 5px;
+	margin: 0 0.25rem;
 }
 .jsao ul li{
 	float: left;
@@ -95,6 +112,44 @@ header{
 .jsao ul li:nth-child(1){
 	margin-right: 2%;
 }
+@media (min-width: 1024px) {
+	.jsao{
+		max-width: 1024px;
+		margin: auto;
+	}
+	
+}
+/*@media (min-width: 768px) {
+	.jsao{
+		width: 980px;
+		margin: auto;
+	}
+.jsao .topj{
+	font-size: 20px;
+}
+.jsao .img p{
+	position: absolute;
+		font-size: 14px;
+	}
+	.jsao .txt{
+		text-indent: 2em;
+		margin:5px;
+		color: #666666;
+		font-size: 20px;
+	}
+	.jsao ul{
+		margin: 0 5px;
+	}
+	.jsao ul li{
+		float: left;
+		width: 49%;
+	}
+	.jsao ul li:nth-child(1){
+		margin-right: 2%;
+	}
+}*/
+
+
 
 
 /*<!--		说明-->*/
@@ -112,7 +167,7 @@ header{
 	display: inline-block;
 	font-size: 1.124rem;
 	font-weight: bold;
-	padding:3px 10px;
+	padding:0.18rem 0.5rem;
 	margin: 5px;
 	background: url(../img/ds06.png) no-repeat center center;
 	background-size:100% 100%;
@@ -120,14 +175,14 @@ header{
 .suoming .text{
 	color: #666666;
 	font-size: 0.84374rem;
-	margin: 5px;
+	margin: 0.2rem;
 }
 .suoming .text span{
 	color: #795126;
 	font-weight: bold;
 }
 .suoming ul{
-	margin: 0 5px;
+	margin: 0 0.2rem;
 }
 .suoming ul li{
 	float: left;
@@ -145,11 +200,41 @@ header{
 	text-align: center;
 	background: #784D1F;
 	color: #fef9e7;
-	padding: 10px 10px;
+	padding: 0.5rem 0.5rem;
 	font-size: 0.84374rem;
 	font-weight: bold;
 }
-
+@media (min-width: 1024px) {
+	.suoming{
+		max-width: 1024px;
+		
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	.suoming{
+		width: 980px;
+		margin: auto;
+	}
+	.suoming .one span{
+		font-size: 20px;
+	}
+	.suoming .text{
+		font-size: 20px;
+	}
+	.suoming ul .mp{
+		font-size: 20px;
+	}
+	.suoming ul .img{
+		width: 20%;
+	}
+	.suoming ul .mp{
+		width: 75%;
+	}
+	.suoming .zj{
+		font-size: 20px;
+	}
+}*/
 
 /*<!--		帮助-->*/
 .help{
@@ -164,8 +249,8 @@ header{
 	font-size: 1.124rem;
 	color: #88043c;
 	font-weight: bold;
-	padding: 5px;
-	margin: 10px;
+	padding: 0.2rem;
+	margin: 0.5rem;
 	background: url(../img/ds09.png) no-repeat 0 0;
 	background-size:100% 100%;
 }
@@ -173,37 +258,54 @@ header{
 	color: #666666;
 	font-size: 0.84374rem;
 	
-	margin:0 5px 10px 5px;
+	margin:0 0.2rem 0.5rem 0.2rem;
 }
 .help .jienan{
-	margin: 0 5px;
+	margin: 0 0.2rem;
 }
-
+@media (min-width: 1024px) {
+	.help{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	.help{
+		width: 980px;
+		margin: auto;
+	}
+	.help .head span{
+		font-size: 20px;
+	}
+	.help p{
+		font-size: 20px;
+	}
+}*/
 
 /*<!--		拯救-->*/
 .zengjiu{
 	background: #970B46;
 	color: #ffffff;
-	box-shadow:inset 0 -5px 5px #69012D,
-					inset 0 5px 5px #69012D;
+	box-shadow:inset 0 -0.2rem 0.2rem #69012D,
+					inset 0 0.2rem 0.2rem #69012D;
 }
 .zengjiu .hy{
 	font-size: 1.124rem;
 	font-weight: bold;
 	text-align: center;
-	padding: 10px 0;
+	padding: 0.5rem 0;
 }
 .zengjiu .nl{
-	margin: 0 5px;
+	margin: 0 0.2rem;
 	text-align: center;
 	font-size: 0.8437rem;
 	
 }
 .zengjiu ul{
-	margin: 10px 0;
+	margin: 0.5rem 0;
 }
 .zengjiu ul li{
-	padding: 5px;
+	padding: 0.2rem;
 }
 .zengjiu ul li div{
 	float: left;
@@ -224,24 +326,53 @@ header{
 .zengjiu ul li .wz img{
 	display: inline-block;
 	vertical-align: middle;
-	width: 7px;
-	margin-right: 10px;
+	width: 0.33rem;
+	margin-right: 0.5rem;
 }
 .zengjiu ul li .wz .gx{
 	font-size: 1.0124rem;
 	font-weight: bold;
 }
 .zengjiu ul li .wz .ym{
-	margin-top: 5px;
+	margin-top: 0.2rem;
 	color: #fbdeeb;
 	font-size: 0.84374rem;
 }
 .zengjiu .zoje{
-	margin:0 5px;
-	padding: 5px 0;
-	padding-bottom: 20px;
+	margin:0 0.2rem;
+	padding: 0.2rem 0;
+	padding-bottom: 1rem;
 	font-size: 0.84374rem;
 }
+@media (min-width: 1024px) {
+	.zengjiu{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	
+	.zengjiu{
+		width: 980px;
+		margin: auto;
+	}
+	.zengjiu .hy{
+		font-size: 20px;
+	}
+	.zengjiu .nl{
+		font-size: 20px;
+	}
+	.zengjiu ul li .wz .gx{
+		font-size: 20px;
+	}
+	.zengjiu ul li .wz .ym{
+		font-size: 20px;
+	}
+	.zengjiu .zoje{
+		font-size: 20px;
+	}
+}*/
+
 
 /*<!--		选择-->*/
 .xuanz{
@@ -253,14 +384,14 @@ header{
 	background-color:white;
 	text-align: center;
 	font-size: 0;
-	padding: 15px 0;
+	padding: 0.7rem 0;
 }
 .xuanz .ssu span{
 	display: inline-block;
 	font-size: 1.1812rem;
 	color: #88043c;
 	font-weight: bold;
-	padding: 5px 20px;
+	padding: 0.2rem 1rem;
 	background: url(../img/ds15.png) no-repeat center center;
 	background-size:100% 100% ;
 }
@@ -269,21 +400,21 @@ header{
 	color: #fdf2cf;
 	font-size: 1.1024rem;
 	font-weight: bold;
-	padding: 10px 0;
+	padding: 0.5rem 0;
 }
 .xuanz ul li .anl{
-	padding: 0 5px;
+	padding: 0 0.2rem;
 	position: relative;
 }
 .xuanz ul li .anl div{
 	position: absolute;
-	top: 10px;
-	right: 8px;
+	top: 0.5rem;
+	right: 0.4rem;
 	z-index: 99999;
 	background: #F8F8DE;
 	border: 1px solid #E7BDCE;
 	text-align: center;
-	border-radius:5px;
+	border-radius:0.2rem;
 }
 .xuanz ul li .anl div p{
 	color: #bd135b;
@@ -297,8 +428,33 @@ header{
 .baco{
 	background: #69012D;
 }
-
-
+/*@media (min-width: 768px) {
+	.xuanz{
+		width: 980px;
+		margin: auto;
+	}
+	.xuanz .ssu span{
+		font-size: 20px;
+	}
+	.xuanz ul li .bti{
+		font-size: 20px;
+	}
+	.xuanz ul li .anl div p{
+		font-size: 16px;
+	}
+	.xuanz ul li .anl div span{
+		font-size: 16px;
+	}
+	.xuanz ul li .anl div{
+		height: 50px;
+	}
+}*/
+@media (min-width: 1024px) {
+	.xuanz{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
 		
 /*<!--		现场-->*/
 .xianc{
@@ -307,7 +463,7 @@ header{
 .xianc .hea{
 	text-align: center;
 	font-size: 0;
-	padding: 5px 0;
+	padding: 0.2rem 0;
 	background: url(../img/ds29.png) no-repeat center center;
 	background-size:100%;
 }
@@ -318,10 +474,10 @@ header{
 	font-size: 1.1824rem;
 	color: #5b2d00;
 	font-weight: bold;
-	padding: 5px 40px;
+	padding: 0.2rem 2rem;
 }
 .xianc .zft{
-	margin:0 5px;
+	margin:0 0.2rem;
 }
 .xianc .zft img{
 	display: block;
@@ -329,8 +485,8 @@ header{
 .xianc .tx{
 	font-size: 0.84374rem;
 	color: #333333;
-	padding: 5px;
-	padding-bottom: 20px;
+	padding: 0.2rem;
+	padding-bottom: 1rem;
 	background: url(../img/ds30.png) no-repeat 0 100%;
 	background-size:100% auto;
 }
@@ -340,9 +496,32 @@ header{
 .xianc .lat{
 	font-size: 0.84374rem;
 	color: #333333;
-	padding: 5px;
-	padding-bottom: 20px;
+	padding: 0.2rem;
+	padding-bottom: 0.2rem;
 }
+@media (min-width: 1024px) {
+	.xianc{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	.xianc{
+		width: 980px;
+		margin: auto;
+	}
+	.xianc .hea span{
+		font-size: 20px;
+	}
+	.xianc .tx{
+		font-size: 20px;
+	}
+	.xianc .lat{
+		font-size: 20px;
+	}
+}*/
+
+
 /*<!--		立即预约-->*/
 .yyue{
 	
@@ -352,7 +531,7 @@ header{
 	background: url(../img/ds32.png) no-repeat center center;
 	background-size:100% 100%;
 	text-align: center;
-	padding: 10px 0;
+	padding: 0.5rem 0;
 }
 .yyue .bat span{
 	display: inline-block;
@@ -361,15 +540,15 @@ header{
 	font-weight: bold;
 }
 .yyue form{
-	margin:0 20px;
-	padding: 15px 0;
+	margin:0 1rem;
+	padding: 0.75rem 0;
 	background: url(../img/ds33.png) no-repeat center center;
 	background-size:100% 100%;
 	margin-bottom: 20px;
 }
 .yyue form .sr{
 	width: 90%;
-	margin:5px auto;
+	margin:0.5rem auto;
 	font-size: 0;
 	padding: 0;
 }
@@ -386,7 +565,7 @@ header{
 	display: inline-block;
 	vertical-align: middle;
 	width: 60%;
-	padding: 5px 0;
+	padding: 0.3rem 0;
 	outline: none;
 	color: #333333;
 	font-size: 0.73124rem;
@@ -416,7 +595,7 @@ header{
 	color: #824b16;
 }
 .yyue form .rig{
-	margin-right: 10px;
+	margin-right: 0.5rem;
 }
 .yyue form .liji{
 	text-align: center;
@@ -425,26 +604,57 @@ header{
 .yyue form .liji button{
 	border: none;
 	background-color:none;
-	font-size: 0.95624rem;
+	font-size: 0.8rem;
 	color: white;
-	padding: 10px;
+	padding: 0.5rem;
 	background: url(../img/ds34.png) no-repeat center center;
 	background-size:100% 100%;
 	margin-left: 10%;
-	margin-top: 20px;
+	margin-top: 1rem;
 }
 .yyue form p{
 	text-align: center;
-	margin: 5px 0;
+	margin: 0.2rem 0;
 	color: #824b16;
 	font-size: 0.674rem;
 }
+@media (min-width: 1024px) {
+	.yyue{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	.yyue{
+		width: 980px;
+		margin: auto;
+	}
+	.yyue .bat span{
+		font-size: 20px;
+	}
+	.yyue form .sr .ts{
+		font-size: 20px;
+	}
+	.yyue form .sr input{
+		font-size: 20px;
+	}
+	.yyue form .xb span{
+		font-size: 20px;
+	}
+	.yyue form .liji button{
+		font-size: 20px;
+	}
+	.yyue form p{
+		font-size: 20px;
+	}
+}*/
+
 
 
 /*<!--		渡劫-->*/
 .erwei{
 	background: #BD135B;
-	padding: 20px;
+	padding: 1rem;
 }
 .erwei .ma{
 	float: left;
@@ -461,8 +671,8 @@ header{
 	color: #f9abcc;
 	background: #69012D;
 	border: 1px solid black;
-	border-radius:3px;
-	padding: 5px 0;
+	border-radius:0.15rem;
+	padding: 0.2rem 0;
 }
 .erwei .rigtxt .add{
 	font-size: 0.956rem;
@@ -472,9 +682,31 @@ header{
 .erwei .rigtxt .hs{
 	color: #fbdbe9;
 	font-size: 0.6745rem;
-	margin: 20px 0;
+	margin: 1rem 0;
 }
-
+@media (min-width: 1024px) {
+	.erwei{
+		max-width: 1024px;
+		margin: auto;
+		padding: 1rem 0;
+	}
+}
+/*@media (min-width: 768px) {
+	.erwei{
+		width: 980px;
+		margin: auto;
+		padding: 0;
+	}
+	.erwei .rigtxt .add{
+		font-size: 20px;
+	}
+	.erwei .rigtxt .hs{
+		font-size: 16px;
+	}
+	.erwei .ma p{
+		font-size: 16px;
+	}
+}*/
 
 
 /*<!--		底部-->*/
@@ -482,13 +714,13 @@ footer{
 	background: #46021F;	
 }
 footer ul{
-	padding: 10px 0;
+	padding: 0.5rem 0;
 }
 footer ul li{
 	float: left;
 	width: 33.33333%;
 	text-align: center;
-	padding: 5px 0;
+	padding: 0.2rem 0;
 	position: relative;
 }
 footer ul li:before{
@@ -514,4 +746,22 @@ footer ul li:last-child:before{
 footer ul li a{
 	display: block;
 	color: white;
+	font-size:0.8rem;
 }
+@media (min-width: 1024px) {
+	footer{
+		max-width: 1024px;
+		margin: auto;
+	}
+}
+/*@media (min-width: 768px) {
+	footer{
+		width: 980px;
+		margin: auto;
+	}
+	footer ul li a{
+		display: block;
+		color: white;
+		font-size: 20px;
+	}
+}*/
