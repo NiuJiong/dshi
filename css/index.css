@@ -587,6 +587,9 @@ header{
 }
 .yyue form .xb input{
 	width: auto;
+	display: inline-block;
+	width: 0.73124rem;
+	height: 0.73124rem;
 }
 .yyue form .xb span{
 	display: inline-block;
